@@ -40,7 +40,9 @@ https://github.com/dabardonov/hse_hw2_chip/blob/main/ChIP_seq.ipynb
 
 |  | **ZFO** | **JYK** |
 | ------------- | ------------- |--------------------|
-| Пересечение **всех** ридов с файлом из ENCODE | <img width="566" alt="image" src="https://user-images.githubusercontent.com/93095449/157662707-5a2355c1-1855-4e9f-814d-8601e161a3b3.png"> | ![image](https://user-images.githubusercontent.com/93095449/157662807-c50b4b89-6fe3-40de-a0b2-b8b80ce19d2b.png) |
-| Пересечение файла из ENCODE со **всеми** ридами | ![image](https://user-images.githubusercontent.com/93095449/157662908-318771d7-dede-47d0-90e1-26a36a187a15.png) | ![image](https://user-images.githubusercontent.com/93095449/157662967-ccb52aec-ed07-48e8-812f-f4ae8628046f.png) |
-| Пересечение **уникальных** ридов с файлом из ENCODE | ![image](https://user-images.githubusercontent.com/93095449/157663204-4ab0b0bd-4208-47f3-abcb-bb27c02bbd03.png) | ![image](https://user-images.githubusercontent.com/93095449/157663269-1d5777fc-de6a-4468-aa8f-bdba785f5f64.png) |
-| Пересечение файла из ENCODE с **уникальными** ридами | ![image](https://user-images.githubusercontent.com/93095449/157663331-ab9706b7-6aba-4dfd-b2bd-74142f4d33ad.png) | ![image](https://user-images.githubusercontent.com/93095449/157663387-261c5218-05f2-48f1-8082-c4d0305a6832.png) |
+| Пересечение **всех** пиков с файлом из ENCODE | <img width="566" alt="image" src="https://user-images.githubusercontent.com/93095449/157662707-5a2355c1-1855-4e9f-814d-8601e161a3b3.png"> | ![image](https://user-images.githubusercontent.com/93095449/157662807-c50b4b89-6fe3-40de-a0b2-b8b80ce19d2b.png) |
+| Пересечение файла из ENCODE со **всеми** пиками | ![image](https://user-images.githubusercontent.com/93095449/157662908-318771d7-dede-47d0-90e1-26a36a187a15.png) | ![image](https://user-images.githubusercontent.com/93095449/157662967-ccb52aec-ed07-48e8-812f-f4ae8628046f.png) |
+| Пересечение пиков из **уникальных** ридов с файлом из ENCODE | ![image](https://user-images.githubusercontent.com/93095449/157663204-4ab0b0bd-4208-47f3-abcb-bb27c02bbd03.png) | ![image](https://user-images.githubusercontent.com/93095449/157663269-1d5777fc-de6a-4468-aa8f-bdba785f5f64.png) |
+| Пересечение файла из ENCODE с пиками из **уникальных** ридов | ![image](https://user-images.githubusercontent.com/93095449/157663331-ab9706b7-6aba-4dfd-b2bd-74142f4d33ad.png) | ![image](https://user-images.githubusercontent.com/93095449/157663387-261c5218-05f2-48f1-8082-c4d0305a6832.png) |
+
+Выравниваем на одну хромосому, а не на все, поэтому с большей частью пиков из файла ENCODE перечесений нет. До фильтрования ридов статистика получается совсем грустная, после фильтрования доля пересечений на порядок лучше, но все равно какие-то из наших пиков не пересекаются с эталонными пиками
