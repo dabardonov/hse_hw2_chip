@@ -40,7 +40,7 @@ https://github.com/dabardonov/hse_hw2_chip/blob/main/ChIP_seq.ipynb
 
 | 1 | **ZFO** | **JYK** |
 | ------------- | ------------- |--------------------|
-| Пересечение всех ридов с файлом из ENCODE | ![image](diag/ZFO_GDN.pdf) | 88120815 |
-| Пересечение файла из ENCODE со всеми ридами | 94077115 (86.21%) | 76904496 (87.27%) |
+| Пересечение всех ридов с файлом из ENCODE | <img width="566" alt="image" src="https://user-images.githubusercontent.com/93095449/157662707-5a2355c1-1855-4e9f-814d-8601e161a3b3.png"> | ![image](https://user-images.githubusercontent.com/93095449/157662807-c50b4b89-6fe3-40de-a0b2-b8b80ce19d2b.png) |
+| Пересечение файла из ENCODE со всеми ридами | ![image](https://user-images.githubusercontent.com/93095449/157662908-318771d7-dede-47d0-90e1-26a36a187a15.png) | ![image](https://user-images.githubusercontent.com/93095449/157662967-ccb52aec-ed07-48e8-812f-f4ae8628046f.png) |
 | Пересечение уникальных ридов с файлом из ENCODE | 4339598 (3.98%) | 3340751 (3.79%) |
 | Пересечение файла из ENCODE с уникальными ридами | 10714633 (9.82%) | 7875568 (8.94%) |
